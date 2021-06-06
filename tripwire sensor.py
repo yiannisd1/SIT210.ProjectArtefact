@@ -45,6 +45,7 @@ while True:
     time.sleep(2)
 
     #if statement to indicate when you want the IFTTT to trigger a response
+    #distance can vary
     if distance<=10:
         #Your IFTTT URL with event name and key
         requests.post('https://maker.ifttt.com/trigger/YOUR_EVENT_NAME/with/key/YOUR_KEY_HERE')
